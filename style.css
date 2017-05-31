@@ -1,0 +1,88 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+h1 {
+  color: #333A56;
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  line-height: 56px;
+  letter-spacing: 8px;
+}
+
+h2, h3, h4 {
+  color: #52658F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    display: inline-block;
+  }
+
+i {
+  font-size: 40px;
+  color: #333A56;
+  letter-spacing: 100px;
+  opacity: 0.8;
+}
+
+#food img {
+  margin: 0 20px 40px 0;
+}
+
+#food img:hover {
+  opacity: 0.3;
+}
+
+#food p {
+  margin-bottom: 40px;
+}
+
+a:link {
+  color: #373737;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333A56;
+  text-decoration: underline;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
